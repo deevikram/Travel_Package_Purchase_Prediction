@@ -33,7 +33,7 @@ Between the bagging section and boosting section, the random forest estimator (r
 Overall, for an imbalanced data set - where only 18% of the data had ProdTaken = 1, influenced the models on how well they performed on recall and precision and F1.
 If we consider recall to be most important measure, then XGBoost tuned gave a high metric for recall (81%). If both recall and F1 are considered to be most important measure, then the tuned random forest performed better since it had an F1 of 80.77%.
 
-##Insights and recommendations
+## Insights and recommendations
 - Majority of the customer base is highly interested in tourism packages - given that 70.4% made a self enquiry about travel packages on their own. This indicates that if the right sort of travel package is offered to these customers, the likelihood that they will purchase a travel package is good.
 - 82% of the customers who did a self enquiry and 78% of the customers who were contacted by the company did not purchase a tourism package. This indicates that either the packages did not appeal to the customers or they could not afford the travel packages.
 - While Deluxe was the package that was pitched the most to customers, the Basic package was the one that was purchased most of the time. This indicates that there is a mismatch between what is being offered to the customer and what they actually want/or can afford.
